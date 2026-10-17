@@ -1,0 +1,26 @@
+name: Report a bug
+description: Help reproduce a problem with Slate Player.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please don't attach private videos. The codec details from the side panel's Info tab (Alt+5) usually tell enough; remove personal information from screenshots and paths."
+  - type: input
+    id: version
+    attributes: {label: Slate Player version, placeholder: 'e.g. 1.2.0 (bottom of Settings)'}
+    validations: {required: true}
+  - type: input
+    id: windows
+    attributes: {label: Windows version and GPU, placeholder: 'e.g. Windows 11 x64, RTX 3060'}
+    validations: {required: true}
+  - type: textarea
+    id: reproduce
+    attributes: {label: How to reproduce it, description: 'What steps lead to the problem?'}
+    validations: {required: true}
+  - type: textarea
+    id: result
+    attributes: {label: Expected and actual behavior}
+    validations: {required: true}
+  - type: textarea
+    id: video
+    attributes: {label: 'Video details, if relevant', description: 'Container, codec, resolution, frame rate and HDR from the Info tab; whether it affects one file or several; Frame decoding setting (Auto / GPU / CPU).'}

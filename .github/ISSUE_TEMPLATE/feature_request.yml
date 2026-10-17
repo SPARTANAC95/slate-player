@@ -1,0 +1,11 @@
+name: Suggest an idea
+description: Something Slate Player could do better.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes: {label: What would you like?, description: 'Describe what you were trying to do and what got in the way.'}
+    validations: {required: true}
+  - type: textarea
+    id: context
+    attributes: {label: Anything else, description: 'Examples from other tools, screenshots, the kind of footage you work with.'}

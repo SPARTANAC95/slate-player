@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: User guide
+    url: https://github.com/SPARTANAC95/slate-player/blob/main/docs/GUIDE.md
+    about: Installing, updates, the filmstrip, compare, export, settings and troubleshooting.
